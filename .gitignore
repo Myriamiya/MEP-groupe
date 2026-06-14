@@ -1,0 +1,18 @@
+﻿# Environnement virtuel
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Base vectorielle ChromaDB
+backend/data/chroma/
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Variables environnement
+.env
