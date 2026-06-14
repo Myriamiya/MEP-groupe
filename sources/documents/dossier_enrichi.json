@@ -1,0 +1,1469 @@
+[
+  {
+    "sex": "Femme",
+    "DDN": "1958-04-12",
+    "Consultations": [
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "soif intense / vision floue / cicatrisation lente / HbA1c 8.5%",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "METFORMINE 850MG / JARDIANCE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-02-14",
+        "Text": "entorse recidivante cheville gauche / instabilite chronique / kinesitherapie",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "PARACETAMOL / CONTENTION",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "polydipsie / polyurie / asthenie / glycemie a jeun 1.8 g/L",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "METFORMINE 850MG / JARDIANCE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1972-09-03",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-02-10",
+        "Text": "fatigue chronique / hyperglycemie post-prandiale / neuropathie debutante",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "METFORMINE 1G / VICTOZA",
+        "Accident_travail": "Arret de Travail : 2016-02-10 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "toux productive / expectorations jaunes / fievre 38C / auscultation : rales",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AMOXICILLINE / BISOLVON",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 6 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "soif intense / vision floue / cicatrisation lente / HbA1c 8.5%",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "METFORMINE 1G / VICTOZA",
+        "Accident_travail": "",
+        "Biologie": "HbA1c : 10.3% / Glycemie : 2.4 g/L / Creatinine : 91 umol/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "dysphonie / toux seche aboyante / dyspnee inspiratoire / fievre 38C",
+        "Resultat_consultation": "LARYNGITE (A/N)",
+        "Prescription": "CELESTENE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1945-11-28",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-02-10",
+        "Text": "automesure 170/95 / bourdonnements oreilles / asthenie",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "PERINDOPRIL 5MG / INDAPAMIDE",
+        "Accident_travail": "Arret de Travail : 2016-02-10 - 10 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-02-05",
+        "Text": "sinusite maxillaire / fievre 38.5C / douleur percussion malaire / antibiotherapie",
+        "Resultat_consultation": "SINUSITE (A/N)",
+        "Prescription": "CLAMOXYL / NASONEX",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "tension 180/110 / vision trouble / crise hypertensive",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "BISOPROLOL 5MG / HYDROCHLOROTHIAZIDE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "entorse recidivante cheville gauche / instabilite chronique / kinesitherapie",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "DICLOFENAC / ATTELLE",
+        "Accident_travail": "Arret de Travail : 2024-08-14 - 28 jours",
+        "Biologie": "NFS normale / CRP : 45 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-07-10",
+        "Text": "automesure 170/95 / bourdonnements oreilles / asthenie",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "AMLODIPINE 5MG / RAMIPRIL 5MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1989-07-15",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-09-08",
+        "Text": "tension 180/110 / vision trouble / crise hypertensive",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "AMLODIPINE 5MG / RAMIPRIL 5MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-12-02",
+        "Text": "grippe A confirmee / complications pulmonaires / immunodeprime / hospitalisation",
+        "Resultat_consultation": "GRIPPE (A/N)",
+        "Prescription": "DOLIPRANE / IBUPROFENE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-08-17",
+        "Text": "cephalees occipitales / vertiges / tension 160/100 / epistaxis",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "AMLODIPINE 5MG / RAMIPRIL 5MG",
+        "Accident_travail": "",
+        "Biologie": "Kaliemie : 4.7 mmol/L / Creatinine : 113 umol/L / Microalbuminurie negative",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "test positif / fievre / courbatures / perte gout et odorat",
+        "Resultat_consultation": "COVID (A/N)",
+        "Prescription": "DOLIPRANE / CORTICOIDE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 9 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "tension 180/110 / vision trouble / crise hypertensive",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "BISOPROLOL 5MG / HYDROCHLOROTHIAZIDE",
+        "Accident_travail": "",
+        "Biologie": "Kaliemie : 4.8 mmol/L / Creatinine : 120 umol/L / Microalbuminurie negative",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "entorse grade 2 ligament lateral externe / hematome / impotence fonctionnelle",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "PARACETAMOL / CONTENTION",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "2001-03-22",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "crise asthme / sibilants / bronchospasme / wheezin",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "VENTOLINE / SERETIDE 250",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-11-30",
+        "Text": "plaques urticariennes migratrices / prurit intense / angio-oedeme levre",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "LORATADINE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 47 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "dyspnee sifflante / toux nocturne / essoufflement effort / DEP abaisse",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SALMETEROL / FLUTICASONE",
+        "Accident_travail": "Arret de Travail : 2023-02-20 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "entorse recidivante cheville gauche / instabilite chronique / kinesitherapie",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "DICLOFENAC / ATTELLE",
+        "Accident_travail": "Arret de Travail : 2024-05-20 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "crise asthme / sibilants / bronchospasme / wheezin",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SYMBICORT / ATROVENT",
+        "Accident_travail": "Arret de Travail : 2025-04-15 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1965-12-08",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-09-08",
+        "Text": "crise asthme / sibilants / bronchospasme / wheezin",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SALMETEROL / FLUTICASONE",
+        "Accident_travail": "Arret de Travail : 2017-09-08 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-07-18",
+        "Text": "tendinopathie achilleenne / douleur talon matin / epaississement tendon",
+        "Resultat_consultation": "TENDINITE (A/N)",
+        "Prescription": "DICLOFENAC / REPOS",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 38 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "crise asthme / sibilants / bronchospasme / wheezin",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SALMETEROL / FLUTICASONE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 37 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "toux grasse / douleur thoracique / antibiotique si purulent / BPCO sous-jacente",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AUGMENTIN",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1980-06-30",
+    "Consultations": [
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "peau seche / constipation / depression / TSH 12 mUI/L",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 75MCG",
+        "Accident_travail": "Arret de Travail : 2018-06-15 - 28 jours",
+        "Biologie": "TSH : 3.04 mUI/L / T4L : 11.4 pmol/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-01-08",
+        "Text": "odynophagie severe / fievre 39C / amygdales erythemateuses / adenopathies",
+        "Resultat_consultation": "ANGINE (A/N)",
+        "Prescription": "CLAMOXYL 500MG / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "CRP : 121 mg/L / GB : 10.8 G/L / NFS : hyperleucocytose",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-08-17",
+        "Text": "goitre / asthenie / cheveux cassants / TSH 8 mUI/L",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 100MCG",
+        "Accident_travail": "Arret de Travail : 2021-08-17 - 28 jours",
+        "Biologie": "TSH : 13.54 mUI/L / T4L : 16.4 pmol/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-02-14",
+        "Text": "entorse grade 2 ligament lateral externe / hematome / impotence fonctionnelle",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "DICLOFENAC / ATTELLE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "peau seche / constipation / depression / TSH 12 mUI/L",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 75MCG",
+        "Accident_travail": "",
+        "Biologie": "TSH : 7.57 mUI/L / T4L : 10.1 pmol/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1993-02-14",
+    "Consultations": [
+      {
+        "Date_consultation": "2019-03-05",
+        "Text": "anxiete generalisee / ruminations / hypersomnolence / apathie",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "PROZAC 20MG / LEXOMYL",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "urticaire geante / dermographisme / allergie alimentaire probable / bilan allergologique",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "ZYRTEC / CORTISONE",
+        "Accident_travail": "Arret de Travail : 2023-02-20 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-07-10",
+        "Text": "tristesse profonde / anhédonie / insomnie / ideation suicidaire passive",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "PROZAC 20MG / LEXOMYL",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1955-08-19",
+    "Consultations": [
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "pleurs / perte appetit / fatigue intense / concentration difficile",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "SERTRALINE 50MG / XANAX",
+        "Accident_travail": "Arret de Travail : 2018-06-15 - 14 jours",
+        "Biologie": "NFS normale / CRP : 21 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-07-18",
+        "Text": "douleur irradiant jambe gauche L5-S1 / fourmillements / signe Lasegue positif a 30°",
+        "Resultat_consultation": "SCIATIQUE (A/N)",
+        "Prescription": "IBUPROFENE / LAMALINE",
+        "Accident_travail": "Arret de Travail : 2019-07-18 - 21 jours",
+        "Biologie": "NFS normale / CRP : 34 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-11-30",
+        "Text": "anxiete generalisee / ruminations / hypersomnolence / apathie",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "PAROXETINE / STILNOX",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-02-14",
+        "Text": "test positif / fievre / courbatures / perte gout et odorat",
+        "Resultat_consultation": "COVID (A/N)",
+        "Prescription": "DOLIPRANE / CORTICOIDE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 49 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "pleurs / perte appetit / fatigue intense / concentration difficile",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "PAROXETINE / STILNOX",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "douleur irradiant jambe gauche L5-S1 / fourmillements / signe Lasegue positif a 30°",
+        "Resultat_consultation": "SCIATIQUE (A/N)",
+        "Prescription": "DICLOFENAC / MYOLASTAN",
+        "Accident_travail": "Arret de Travail : 2024-05-20 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "2005-10-07",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "coxarthrose / boiterie / douleur aine / limitation rotation hanche",
+        "Resultat_consultation": "ARTHROSE (C/N)",
+        "Prescription": "IBUPROFENE 400MG / PARACETAMOL 1G",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 37 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-12-02",
+        "Text": "migraine avec aura / phosphenes / paresthesies main / EVA 9/10",
+        "Resultat_consultation": "MIGRAINE (A/N)",
+        "Prescription": "ZOMIG / DOMPERIDONE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 29 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "gonalgies mecanique / pincement interligne radiologique / limitation flexion",
+        "Resultat_consultation": "ARTHROSE (C/N)",
+        "Prescription": "ARCOXIA / MOPRAL",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "cephalee pulsatile unilaterale / phonophobie / photophobie / nausees",
+        "Resultat_consultation": "MIGRAINE (A/N)",
+        "Prescription": "IMIGRANE / IBUPROFENE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 5 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1977-05-25",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "triglycérides 2.5 g/L / LDL 2.5 g/L / antecedents familiaux",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "SIMVASTATINE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "tendinite rotulienne / douleur genou sport / EVA 5/10 / echographie confirmee",
+        "Resultat_consultation": "TENDINITE (A/N)",
+        "Prescription": "DICLOFENAC / REPOS",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 44 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-11-30",
+        "Text": "triglycérides 2.5 g/L / LDL 2.5 g/L / antecedents familiaux",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "SIMVASTATINE 20MG",
+        "Accident_travail": "",
+        "Biologie": "LDL : 4.3 g/L / HDL : 0.5 g/L / TG : 2.9 g/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-07-18",
+        "Text": "urticaire geante / dermographisme / allergie alimentaire probable / bilan allergologique",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "CETIRIZINE / BETAMETHASONE",
+        "Accident_travail": "Arret de Travail : 2019-07-18 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "bilan lipidique perturbe / LDL 3.1 g/L / risque cardiovasculaire eleve",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "SIMVASTATINE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-11-30",
+        "Text": "brulures mictionnelles / pollakiurie / urines troubles / douleur sus-pubienne",
+        "Resultat_consultation": "CYSTITE (A/N)",
+        "Prescription": "MONURIL / SPASFON",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 18 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1948-01-17",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-02-10",
+        "Text": "bilan lipidique perturbe / LDL 3.1 g/L / risque cardiovasculaire eleve",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "SIMVASTATINE 20MG",
+        "Accident_travail": "",
+        "Biologie": "LDL : 4.3 g/L / HDL : 0.6 g/L / TG : 2.8 g/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "reaction allergique medicamenteuse / plaques rouges / gonflement visage / urgences",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "ZYRTEC / CORTISONE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-02-05",
+        "Text": "bilan lipidique perturbe / LDL 3.1 g/L / risque cardiovasculaire eleve",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "SIMVASTATINE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1999-11-03",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "toux matinale grasse / crachats verdatres / sibilants / SpO2 94%",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SPIRIVA / VENTOLINE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-01-22",
+        "Text": "entorse recidivante cheville gauche / instabilite chronique / kinesitherapie",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "IBUPROFENE / VOLTAROL GEL",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-03-05",
+        "Text": "toux matinale grasse / crachats verdatres / sibilants / SpO2 94%",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SPIRIVA / VENTOLINE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-06-10",
+        "Text": "toux productive / expectorations jaunes / fievre 38C / auscultation : rales",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AMOXICILLINE / BISOLVON",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-04-22",
+        "Text": "essoufflement repos / hypoxie / cyanose levres / EFR obstructif",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SERETIDE / AMOXICILLINE",
+        "Accident_travail": "Arret de Travail : 2021-04-22 - 28 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-09-25",
+        "Text": "eruption vesiculeuse dermatomere T5 / douleurs neuropathiques intenses / fievre",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "ACICLOVIR / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 11 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-02-05",
+        "Text": "essoufflement repos / hypoxie / cyanose levres / EFR obstructif",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SERETIDE / AMOXICILLINE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 47 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1967-03-28",
+    "Consultations": [
+      {
+        "Date_consultation": "2019-07-18",
+        "Text": "algies diffuses / fibrofog / hyperalgésie / asthenie invalidante",
+        "Resultat_consultation": "FIBROMYALGIE (C/N)",
+        "Prescription": "DULOXETINE 60MG / LYRICA",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 10 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-06-10",
+        "Text": "douleur irradiant jambe gauche L5-S1 / fourmillements / signe Lasegue positif a 30°",
+        "Resultat_consultation": "SCIATIQUE (A/N)",
+        "Prescription": "DICLOFENAC / MYOLASTAN",
+        "Accident_travail": "Arret de Travail : 2020-06-10 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "douleurs diffuses / 18 points trigger / sommeil non reparateur / fatigue",
+        "Resultat_consultation": "FIBROMYALGIE (C/N)",
+        "Prescription": "TRAMADOL / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 12 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "epicondylite lateral coude droit / douleur prehension / signe Mill positif",
+        "Resultat_consultation": "TENDINITE (A/N)",
+        "Prescription": "IBUPROFENE / VOLTAROL GEL",
+        "Accident_travail": "Arret de Travail : 2024-05-20 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Femme",
+    "DDN": "1985-07-11",
+    "Consultations": [
+      {
+        "Date_consultation": "2019-12-02",
+        "Text": "pyrosis post-prandial / regurgitations acides / douleur retrosternale / toux nocturne",
+        "Resultat_consultation": "REFLUX GASTRO-OESOPHAGIEN (C/N)",
+        "Prescription": "ESOMEPRAZOLE 40MG",
+        "Accident_travail": "Arret de Travail : 2019-12-02 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-08-17",
+        "Text": "eruption vesiculeuse dermatomere T5 / douleurs neuropathiques intenses / fievre",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "VALACICLOVIR 1G / DOLIPRANE",
+        "Accident_travail": "Arret de Travail : 2021-08-17 - 7 jours",
+        "Biologie": "NFS normale / CRP : 20 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "brulures remontantes / nausees matinales / endoscopie : oesophagite grade B",
+        "Resultat_consultation": "REFLUX GASTRO-OESOPHAGIEN (C/N)",
+        "Prescription": "OMEPRAZOLE 20MG",
+        "Accident_travail": "Arret de Travail : 2023-02-20 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "test positif / fievre / courbatures / perte gout et odorat",
+        "Resultat_consultation": "COVID (A/N)",
+        "Prescription": "DOLIPRANE / CORTICOIDE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1952-06-20",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "jambes lourdes / oedeme chevilles / varices / crampes nocturnes",
+        "Resultat_consultation": "INSUFFISANCE VEINEUSE (C/N)",
+        "Prescription": "VEINAMITOL / DAFLON 500MG",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 23 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-12-02",
+        "Text": "sinusite maxillaire / fievre 38.5C / douleur percussion malaire / antibiotherapie",
+        "Resultat_consultation": "SINUSITE (A/N)",
+        "Prescription": "CLAMOXYL / NASONEX",
+        "Accident_travail": "Arret de Travail : 2019-12-02 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "jambes lourdes / oedeme chevilles / varices / crampes nocturnes",
+        "Resultat_consultation": "INSUFFISANCE VEINEUSE (C/N)",
+        "Prescription": "CYCLO 3 FORT",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-06-10",
+        "Text": "dysurie / nycturie / urines malodorantes / hematurie microscopique",
+        "Resultat_consultation": "CYSTITE (A/N)",
+        "Prescription": "FURADANTINE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 27 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-09-12",
+        "Text": "douleurs jambes debout / telangiectasies / dermite ocre / ulcere veineux",
+        "Resultat_consultation": "INSUFFISANCE VEINEUSE (C/N)",
+        "Prescription": "VEINAMITOL / DAFLON 500MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-06-08",
+        "Text": "nausees intenses / crampes abdominales / deshydratation legere",
+        "Resultat_consultation": "GASTRO-ENTERITE (A/N)",
+        "Prescription": "SMECTA / ERCEFURYL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 45 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1969-11-15",
+    "Consultations": [
+      {
+        "Date_consultation": "2018-11-30",
+        "Text": "plaques erythemato-squameuses coudes genoux / prurit / recidive saisonniere",
+        "Resultat_consultation": "PSORIASIS (C/N)",
+        "Prescription": "DOVOBET / METHOTREXATE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 9 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-06-10",
+        "Text": "eruption vesiculeuse dermatomere T5 / douleurs neuropathiques intenses / fievre",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "ACICLOVIR / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 10 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-10-15",
+        "Text": "psoriasis pustuleux palmo-plantaire / rhumatisme psoriasique / articulations",
+        "Resultat_consultation": "PSORIASIS (C/N)",
+        "Prescription": "DAIVOBET / EMOLLIENTS",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-09-25",
+        "Text": "toux grasse / douleur thoracique / antibiotique si purulent / BPCO sous-jacente",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AUGMENTIN",
+        "Accident_travail": "Arret de Travail : 2023-09-25 - 14 jours",
+        "Biologie": "NFS normale / CRP : 45 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1943-08-07",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-02-10",
+        "Text": "douleur L5-S1 / limite flexion tronc / signe de Lasegue 60° / kinesitherapie",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "IBUPROFENE / MYOLASTAN",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-06-15",
+        "Text": "oedeme cheville / douleur palpation LLE / marche difficile / radio normale",
+        "Resultat_consultation": "ENTORSE CHEVILLE (A/N)",
+        "Prescription": "PARACETAMOL / CONTENTION",
+        "Accident_travail": "Arret de Travail : 2018-06-15 - 10 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-03-05",
+        "Text": "lombalgie chronique / contracture paravertebrale / IRM : hernie L4-L5",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "IBUPROFENE / MYOLASTAN",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 31 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-08-17",
+        "Text": "fievre 39-40C / myalgies / cephalees intenses / asthenie profonde / toux seche",
+        "Resultat_consultation": "GRIPPE (A/N)",
+        "Prescription": "TAMIFLU / PARACETAMOL 1G",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-11-07",
+        "Text": "lombalgie chronique / contracture paravertebrale / IRM : hernie L4-L5",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "TRAMADOL / PARACETAMOL",
+        "Accident_travail": "Arret de Travail : 2024-11-07 - 7 jours",
+        "Biologie": "NFS normale / CRP : 41 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1978-04-02",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "douleur L5-S1 / limite flexion tronc / signe de Lasegue 60° / kinesitherapie",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "IBUPROFENE / MYOLASTAN",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-02-14",
+        "Text": "douleur irradiant jambe gauche L5-S1 / fourmillements / signe Lasegue positif a 30°",
+        "Resultat_consultation": "SCIATIQUE (A/N)",
+        "Prescription": "ARCOXIA / PARACETAMOL",
+        "Accident_travail": "Arret de Travail : 2022-02-14 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-05-28",
+        "Text": "douleurs lombaires mecanique / irradiation fesse / raideur matinale EVA 6/10",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "TRAMADOL / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 9 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "fievre 39-40C / myalgies / cephalees intenses / asthenie profonde / toux seche",
+        "Resultat_consultation": "GRIPPE (A/N)",
+        "Prescription": "DOLIPRANE / FERVEX",
+        "Accident_travail": "Arret de Travail : 2022-12-05 - 10 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "douleurs lombaires mecanique / irradiation fesse / raideur matinale EVA 6/10",
+        "Resultat_consultation": "LOMBALGIES CHRONIQUES (C/N)",
+        "Prescription": "TRAMADOL / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 41 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-07-10",
+        "Text": "reaction allergique medicamenteuse / plaques rouges / gonflement visage / urgences",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "LORATADINE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 18 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1995-12-18",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "FA paroxystique / cardioversion / holter 24h : FA 40% du temps",
+        "Resultat_consultation": "FIBRILLATION AURICULAIRE (C/N)",
+        "Prescription": "XARELTO 20MG / BISOPROLOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 46 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-09-12",
+        "Text": "toux grasse / douleur thoracique / antibiotique si purulent / BPCO sous-jacente",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AMOXICILLINE / BISOLVON",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-11-07",
+        "Text": "tachycardie irreguliere / score CHA2DS2-VASc 3 / anticoagulation indiquee",
+        "Resultat_consultation": "FIBRILLATION AURICULAIRE (C/N)",
+        "Prescription": "PRADAXA / CORDARONE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1960-09-25",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "polydipsie / polyurie / asthenie / glycemie a jeun 1.8 g/L",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "METFORMINE 850MG / JARDIANCE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "aura visuelle / hemicrane droite / vomissements / impossibilite travailler",
+        "Resultat_consultation": "MIGRAINE (A/N)",
+        "Prescription": "ZOMIG / DOMPERIDONE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 31 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2017-09-08",
+        "Text": "polydipsie / polyurie / asthenie / glycemie a jeun 1.8 g/L",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "GLUCOPHAGE / INSULINE LANTUS",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "douleur sinusienne / obstruction nasale / rhinorrhee purulente / cephalees frontales",
+        "Resultat_consultation": "SINUSITE (A/N)",
+        "Prescription": "CLAMOXYL / NASONEX",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 43 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "fatigue chronique / hyperglycemie post-prandiale / neuropathie debutante",
+        "Resultat_consultation": "DIABETE TYPE 2 (C/N)",
+        "Prescription": "GLUCOPHAGE / INSULINE LANTUS",
+        "Accident_travail": "Arret de Travail : 2024-08-14 - 10 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "dysphonie / toux seche aboyante / dyspnee inspiratoire / fievre 38C",
+        "Resultat_consultation": "LARYNGITE (A/N)",
+        "Prescription": "BETAMETHASONE / IBUPROFENE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1987-03-14",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "automesure 170/95 / bourdonnements oreilles / asthenie",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "AMLODIPINE 5MG / RAMIPRIL 5MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "vesicules groupees en bande thoracique / brulures insupportables / adenopathies",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "ZELITREX / LAROXYL",
+        "Accident_travail": "Arret de Travail : 2020-02-28 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-10-15",
+        "Text": "tension 180/110 / vision trouble / crise hypertensive",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "AMLODIPINE 5MG / RAMIPRIL 5MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-05-28",
+        "Text": "grippe A confirmee / complications pulmonaires / immunodeprime / hospitalisation",
+        "Resultat_consultation": "GRIPPE (A/N)",
+        "Prescription": "DOLIPRANE / FERVEX",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-02-20",
+        "Text": "automesure 170/95 / bourdonnements oreilles / asthenie",
+        "Resultat_consultation": "HTA (C/N)",
+        "Prescription": "PERINDOPRIL 5MG / INDAPAMIDE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "2000-07-08",
+    "Consultations": [
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "toux seche / oppression thoracique / dyspnee au froid",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SYMBICORT / ATROVENT",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-01-08",
+        "Text": "fievre 39.5C / toux productive / douleur thoracique / dyspnee / CRP 180",
+        "Resultat_consultation": "PNEUMONIE (A/N)",
+        "Prescription": "CEFTRIAXONE IV",
+        "Accident_travail": "",
+        "Biologie": "CRP : 172 mg/L / GB : 17.1 G/L / NFS : hyperleucocytose",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-09-12",
+        "Text": "dyspnee sifflante / toux nocturne / essoufflement effort / DEP abaisse",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SYMBICORT / ATROVENT",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 46 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "vomissements repetitifs / diarrhee profuse / fievre / syndrome infectieux",
+        "Resultat_consultation": "GASTRO-ENTERITE (A/N)",
+        "Prescription": "IMODIUM / DOLIPRANE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-02-05",
+        "Text": "toux seche / oppression thoracique / dyspnee au froid",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "VENTOLINE / SERETIDE 250",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "laryngite sous-glottique / tirage / stridor / corticoides urgents",
+        "Resultat_consultation": "LARYNGITE (A/N)",
+        "Prescription": "CELESTENE",
+        "Accident_travail": "Arret de Travail : 2025-04-15 - 10 jours",
+        "Biologie": "NFS normale / CRP : 48 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-07-10",
+        "Text": "toux seche / oppression thoracique / dyspnee au froid",
+        "Resultat_consultation": "ASTHME (C/N)",
+        "Prescription": "SALMETEROL / FLUTICASONE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 35 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1973-01-30",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "goitre / asthenie / cheveux cassants / TSH 8 mUI/L",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 50MCG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-01-08",
+        "Text": "odynophagie severe / fievre 39C / amygdales erythemateuses / adenopathies",
+        "Resultat_consultation": "ANGINE (A/N)",
+        "Prescription": "AMOXICILLINE 1G",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "peau seche / constipation / depression / TSH 12 mUI/L",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 50MCG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-08-14",
+        "Text": "laryngite sous-glottique / tirage / stridor / corticoides urgents",
+        "Resultat_consultation": "LARYNGITE (A/N)",
+        "Prescription": "CELESTENE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-11-07",
+        "Text": "fatigue intense / frilosité / prise de poids / bradycardie / TSH elevee",
+        "Resultat_consultation": "HYPOTHYROIDIE (C/N)",
+        "Prescription": "LEVOTHYROX 50MCG",
+        "Accident_travail": "Arret de Travail : 2024-11-07 - 21 jours",
+        "Biologie": "TSH : 10.19 mUI/L / T4L : 16.0 pmol/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-07-10",
+        "Text": "gorge rouge purulente / difficulte deglutition / fievre 38.5C",
+        "Resultat_consultation": "ANGINE (A/N)",
+        "Prescription": "AUGMENTIN 1G",
+        "Accident_travail": "",
+        "Biologie": "CRP : 131 mg/L / GB : 15.4 G/L / NFS : hyperleucocytose",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1956-05-22",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-09-08",
+        "Text": "tristesse profonde / anhédonie / insomnie / ideation suicidaire passive",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "PAROXETINE / STILNOX",
+        "Accident_travail": "Arret de Travail : 2017-09-08 - 28 jours",
+        "Biologie": "NFS normale / CRP : 36 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-01-08",
+        "Text": "urticaire geante / dermographisme / allergie alimentaire probable / bilan allergologique",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "LORATADINE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-06-08",
+        "Text": "tristesse profonde / anhédonie / insomnie / ideation suicidaire passive",
+        "Resultat_consultation": "DEPRESSION (C/N)",
+        "Prescription": "SERTRALINE 50MG / XANAX",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1991-10-05",
+    "Consultations": [
+      {
+        "Date_consultation": "2017-03-14",
+        "Text": "gonalgies mecanique / pincement interligne radiologique / limitation flexion",
+        "Resultat_consultation": "ARTHROSE (C/N)",
+        "Prescription": "IBUPROFENE 400MG / PARACETAMOL 1G",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2019-03-05",
+        "Text": "eruption vesiculeuse dermatomere T5 / douleurs neuropathiques intenses / fievre",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "VALACICLOVIR 1G / DOLIPRANE",
+        "Accident_travail": "Arret de Travail : 2019-03-05 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-06-10",
+        "Text": "douleurs interphalangiennes / nodules Heberden / deformation doigts",
+        "Resultat_consultation": "ARTHROSE (C/N)",
+        "Prescription": "ARCOXIA / MOPRAL",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-10-15",
+        "Text": "urticaire geante / dermographisme / allergie alimentaire probable / bilan allergologique",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "LORATADINE",
+        "Accident_travail": "Arret de Travail : 2020-10-15 - 7 jours",
+        "Biologie": "NFS normale / CRP : 24 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-11-30",
+        "Text": "douleurs interphalangiennes / nodules Heberden / deformation doigts",
+        "Resultat_consultation": "ARTHROSE (C/N)",
+        "Prescription": "DICLOFENAC / OMEPRAZOLE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2025-04-15",
+        "Text": "sciatique hyperalgique / paresthesies pied / signe sonnette / EVA 8/10",
+        "Resultat_consultation": "SCIATIQUE (A/N)",
+        "Prescription": "IBUPROFENE / LAMALINE",
+        "Accident_travail": "Arret de Travail : 2025-04-15 - 28 jours",
+        "Biologie": "NFS normale / CRP : 6 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1948-12-17",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "bilan lipidique perturbe / LDL 3.1 g/L / risque cardiovasculaire eleve",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "ROSUVASTATINE 10MG / EZETIMIBE",
+        "Accident_travail": "",
+        "Biologie": "LDL : 3.4 g/L / HDL : 0.7 g/L / TG : 2.0 g/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2018-11-30",
+        "Text": "otite sereuserecidivante / barotraumatisme / aeroateur tympanique propose",
+        "Resultat_consultation": "OTITE MOYENNE AIGUE (A/N)",
+        "Prescription": "AUGMENTIN / OTIPAX",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 20 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-02-28",
+        "Text": "triglycérides 2.5 g/L / LDL 2.5 g/L / antecedents familiaux",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "ROSUVASTATINE 10MG / EZETIMIBE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2021-11-30",
+        "Text": "diarrhee liquide 8 selles / vomissements / douleurs abdominales / fievre 38C",
+        "Resultat_consultation": "GASTRO-ENTERITE (A/N)",
+        "Prescription": "TIORFAN / HYDRALIN",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-02-05",
+        "Text": "triglycérides 2.5 g/L / LDL 2.5 g/L / antecedents familiaux",
+        "Resultat_consultation": "HYPERCHOLESTEROLEMIE (C/N)",
+        "Prescription": "ROSUVASTATINE 10MG / EZETIMIBE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-05-20",
+        "Text": "reaction allergique medicamenteuse / plaques rouges / gonflement visage / urgences",
+        "Resultat_consultation": "URTICAIRE (A/N)",
+        "Prescription": "ZYRTEC / CORTISONE",
+        "Accident_travail": "Arret de Travail : 2024-05-20 - 21 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1982-08-28",
+    "Consultations": [
+      {
+        "Date_consultation": "2019-07-18",
+        "Text": "toux productive matin / expectorations / dyspnee effort / tabagisme 30 PA",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SPIRIVA / VENTOLINE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-12-05",
+        "Text": "epicondylite lateral coude droit / douleur prehension / signe Mill positif",
+        "Resultat_consultation": "TENDINITE (A/N)",
+        "Prescription": "ARCOXIA / KINESITHERAPIE",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 23 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "toux productive matin / expectorations / dyspnee effort / tabagisme 30 PA",
+        "Resultat_consultation": "BRONCHITE CHRONIQUE (C/N)",
+        "Prescription": "SERETIDE / AMOXICILLINE",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "1963-04-11",
+    "Consultations": [
+      {
+        "Date_consultation": "2018-01-22",
+        "Text": "algies diffuses / fibrofog / hyperalgésie / asthenie invalidante",
+        "Resultat_consultation": "FIBROMYALGIE (C/N)",
+        "Prescription": "TRAMADOL / PARACETAMOL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 15 mg/L",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-09-25",
+        "Text": "zona ophthalmique / douleur oculaire / vesicules front / risque corneen",
+        "Resultat_consultation": "ZONA (A/N)",
+        "Prescription": "ZELITREX / LAROXYL",
+        "Accident_travail": "Arret de Travail : 2023-09-25 - 14 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2023-12-18",
+        "Text": "douleurs diffuses / 18 points trigger / sommeil non reparateur / fatigue",
+        "Resultat_consultation": "FIBROMYALGIE (C/N)",
+        "Prescription": "CYMBALTA / LAROXYL",
+        "Accident_travail": "",
+        "Biologie": "NFS normale / CRP : 17 mg/L",
+        "Biometrie": ""
+      }
+    ]
+  },
+  {
+    "sex": "Homme",
+    "DDN": "2003-06-03",
+    "Consultations": [
+      {
+        "Date_consultation": "2016-08-25",
+        "Text": "pyrosis post-prandial / regurgitations acides / douleur retrosternale / toux nocturne",
+        "Resultat_consultation": "REFLUX GASTRO-OESOPHAGIEN (C/N)",
+        "Prescription": "OMEPRAZOLE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2017-09-08",
+        "Text": "nausees intenses / crampes abdominales / deshydratation legere",
+        "Resultat_consultation": "GASTRO-ENTERITE (A/N)",
+        "Prescription": "SMECTA / ERCEFURYL",
+        "Accident_travail": "Arret de Travail : 2017-09-08 - 7 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2020-10-15",
+        "Text": "pyrosis post-prandial / regurgitations acides / douleur retrosternale / toux nocturne",
+        "Resultat_consultation": "REFLUX GASTRO-OESOPHAGIEN (C/N)",
+        "Prescription": "OMEPRAZOLE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2022-09-12",
+        "Text": "toux grasse / douleur thoracique / antibiotique si purulent / BPCO sous-jacente",
+        "Resultat_consultation": "BRONCHITE AIGUE (A/N)",
+        "Prescription": "AUGMENTIN",
+        "Accident_travail": "Arret de Travail : 2022-09-12 - 10 jours",
+        "Biologie": "",
+        "Biometrie": ""
+      },
+      {
+        "Date_consultation": "2024-11-07",
+        "Text": "brulures remontantes / nausees matinales / endoscopie : oesophagite grade B",
+        "Resultat_consultation": "REFLUX GASTRO-OESOPHAGIEN (C/N)",
+        "Prescription": "OMEPRAZOLE 20MG",
+        "Accident_travail": "",
+        "Biologie": "",
+        "Biometrie": ""
+      }
+    ]
+  }
+]

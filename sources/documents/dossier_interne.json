@@ -1,0 +1,283 @@
+[
+    {
+        "sex": "Femme",
+        "DDN": "1965-07-21",
+        "Consultations": [
+            {
+                "Date_consultation": "2001-11-21",
+                "Text": "a chaque fois qu'elle a ses règles douleur de la jambe droite à type de pesanteur, jambe parfois dure mais pas gonflée / Pas de prescription"
+            },
+            {
+                "Date_consultation": "2010-01-28",
+                "Text": "son papa décompense AT 1 semaine / Pas de prescription"
+            },
+            {
+                "Date_consultation": "2010-02-17",
+                "Resultat_consultation": "DEPRESSION (C/N) / TRISTESSE - DOULEUR MORALE (dans le regard ou le faciès) / perte d'intérêt ou de plaisir / autodévaluation / idée(s) suicidaire(s) / TROUBLES DU SOMMEIL - / insomnie / BAISSE DES ACTIVITES / physiques (asthénie, sexe, appétit, etc.) / psychiques (parole, mémoire, concentration, etc.) / BAISSE DES FONCTIONS DE RELATION SOCIALE / moyenne / ABSENCE DE TROUBLE DE LA PERSONNALITE",
+                "Prescription": "PROZAC / LEXOMYL"
+            },
+            {
+                "Date_consultation": "2011-03-23",
+                "Resultat_consultation": "REACTION A SITUATION EPROUVANTE (B/N) / Santé du père / EXPRESSION d’un \" MAL ETRE \" (avec reviviscence fréquente de l’épreuve déclenchante) / manifestations anxieuses / Arrêt(s) de travail / EPREUVE DECLENCHANTE de MOINS de 6 MOIS",
+                "Text": "Arrêt de Travail : 23/03/2011 - 27/03/2011 : 5 jours / familiale (conflit, séparation, deuil, etc. A préciser en commentaire) / En cours de divorce / Pas de prescription"
+            },
+            {
+                "Date_consultation": "2021-02-01",
+                "Resultat_consultation": "DEPRESSION (C/N) / .++++ DOULEUR MORALE / autodévaluation / tristesse / .++++ INHIBITION (BAISSE OU DIMINUTION) / de l’activité physique (asthénie, sexe, appétit) / de l’activité psychique (parole, mémoire, concentration) / des fonctions de relations sociales / .++++ TROUBLES DU SOMMEIL / insomnie / .++++ ABSENCE DE TROUBLE DE LA PERSONNALITÉ / .++++ ÉVOLUANT DEPUIS 15 JOURS AU MOINS / anxiété / récidive ",
+                "Text": "Arrêt(s) de travail / Arrêt de Travail : 01/02/2021 - 28/02/2021 : 28 jours / Veut pas voir psy / Demande à reprendre ancien traitement",
+                "Prescription": "PROZAC / LEXOMYL"
+            },
+            {
+                "Date_consultation": "2021-10-18",
+                "Resultat_consultation": "REACTION A SITUATION EPROUVANTE (B/N) / s'est fait tapé par son ex\"nouveau\" copain / .++++ EXPRESSION D’UN \"MAL ÊTRE\" (AVEC REVIVISCENCE FRÉQUENTE DE L’ÉPREUVE DÉCLENCHANTE) / manifestations anxieuses",
+                "Prescription": "PAROXETINE"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1975-03-01",
+        "Consultations": [
+            {
+                "Date_consultation": "2008-09-28",
+                "Text": "toux",
+                "Prescription": "FERVEX / DOLIPRANE"
+            },
+            {
+                "Date_consultation": "2008-10-24",
+                "Text": "Aptsport / Pas de prescription"
+            },
+            {
+                "Date_consultation": "2009-03-01",
+                "Text": "CRH Neurologie = 1 mois à la Salpétrière / première poussée de myasthénie / sorti le 1/2 sous Cortancyl + Mestinon / Fièvre le soir angine - mni test négatif aslo et antistreptodornase RAS",
+                "Prescription": "DOLIPRANE"
+            },
+            {
+                "Date_consultation": "2010-06-21",
+                "Resultat_consultation": "DIARRHEE - NAUSEE - VOMISSEMENT (B/N) / .++++ SELLES FREQUENTES, MOLLES ou LIQUIDES / .++++ RECENTES",
+                "Text": "arrêté MESTINON depuis 10 jours / TSH normale",
+                "Prescription": "LOPERAMIDE"
+            },
+            {
+                "Date_consultation": "2011-09-18",
+                "Text": "Aptsport"
+            },
+            {
+                "Date_consultation": "2012-09-19",
+                "Text": "Aptsport"
+            },
+            {
+                "Date_consultation": "2013-09-16",
+                "Text": "Aptsport"
+            },
+            {
+                "Date_consultation": "2018-11-01",
+                "Text": "chute sur le pouce de la main gauche; pas de fracture / Inapspor",
+                "Accident_travail": "Questionnaires : *Accident de travail / *Accident de travail / Accident du travail du = 01/11/2018",
+                "Prescription": "DIANTALVIC"
+            },
+            {
+                "Date_consultation": "2019-09-18",
+                "Text": "Aptsport"
+            },
+            {
+                "Date_consultation": "2022-05-31",
+                "Resultat_consultation": "OTITE MOYENNE (C/N) / .++++ TYMPAN(S) MODIFIÉ(S) / rouge vif / droite / fièvre ou sensation de fièvre / CERVICALGIE (A/N) / .++++ DOULEUR DU RACHIS CERVICAL / spontanée",
+                "Text": "38,5°C"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1945-06-08",
+        "Consultations": [
+            {
+                "Date_consultation": "2022-06-10",
+                "Text": "Ancien kiné à la retraite / échec sleeve gastrectomie 2012 ? / 112kg pour 174cm / Lombalgie chronique / Vit à Nice, de passage à Paris / 39°C / céphalées laryngite fatigue++ depuis hier matin / Autotest antigénique positif ce matin"
+            }
+        ]
+    },
+    {
+        "sex": "Femme",
+        "DDN": "2001-02-06",
+        "Consultations": [
+            {
+                "Date_consultation": "2018-01-22",
+                "Text": "verrue plantaire droite / Pas de prescription"
+            },
+            {
+                "Date_consultation": "2018-04-07",
+                "Resultat_consultation": "SUITE OPERATOIRE (D/P) / Verrue plantaire / .++++ PRISE EN CHARGE DE MOINS DE 3 MOIS CONSÉCUTIVE À UNE / intervention chirurgicale sous anesthésie (générale, loco-régionale ou régionale) / SANS COMPLICATION",
+                "Text": "contrôle de la plaie sans soin local / Arrêt(s) de travail / Arrêt de Travail : 07/04/2018 - 27/04/2018 - Prolongation",
+                "Prescription": "DOLIPRANE"
+            },
+            {
+                "Date_consultation": "2018-05-02",
+                "Resultat_consultation": "SUITE OPERATOIRE (D/P) / Verrue plantaire / .++++ PRISE EN CHARGE DE MOINS DE 3 MOIS CONSÉCUTIVE À UNE / intervention chirurgicale sous anesthésie (générale, loco-régionale ou régionale) / SANS COMPLICATION / contrôle de la plaie sans soin local / VULVITE-VAGINITE (B/N) / .++++ MODIFICATION D'ASPECT DES MUQUEUSES GÉNITALES / vulvaires / rougeur / .++++ ABSENCE DE SIGNES GÉNÉRAUX / .++++ ABSENCE DE DOULEUR PELVIENNE (SPONTANÉE OU À LA MOBILISATION UTÉRINE AU TOUCHER VAGINAL) / prurit ",
+                "Text": "Arrêt(s) de travail / Arrêt de Travail : 02/05/2018 - 02/06/2018 - Prolongation",
+                "Prescription": "PEVARYL Ovule"
+            },
+            {
+                "Date_consultation": "2018-07-01",
+                "Text": "persistance douleur verrue plantaire + apparition d'un lumbago"
+            },
+            {
+                "Date_consultation": "2022-01-20",
+                "Resultat_consultation": "PROCEDURE ADMINISTRATIVE (0/N) / .++++ RÉDACTION / certificat (à préciser) / .++++ RÉALISÉ(S) À / l'initiative du médecin / .++++ POUR UN PROBLÈME / personnel (assurance-vie, prêts, naturalisation) / CONTRACEPTION (0/N) / .++++ PRÉVENTION DE LA GROSSESSE / contraception hormonale / orale",
+                "Biometrie": "Questionnaires : 04-Biométrie / 04-Biométrie / Poids (kg) = 60.500 kg / Taille (cm) = 165.0 cm / Indice de Masse Corporel (kg/m2) = 22.22 / PAS - couché (mmHg) = 120 mm Hg / PAD - couché (mmHg) = 80 mm Hg / _Pouls bat/mn = 76 b/mn"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1996-02-05",
+        "Consultations": [
+            {
+                "Date_consultation": "2016-09-19",
+                "Resultat_consultation": "TENOSYNOVITE (C/N) / patte d'oie genou gauche / .++++ DOULEUR TENDINEUSE / .++++ RETROUVÉE À LA PALPATION / .++++ DÉCLENCHÉE PAR MOUVEMENT CONTRARIE (ACTIF OU PASSIF) / .++++ INTÉGRITÉ DES ARTICULATIONS SUS ET SOUS JACENTES",
+                "Prescription": "VOLTARENE"
+            },
+            {
+                "Date_consultation": "2019-09-05",
+                "Text": "Recour(s) / cardiologue",
+                "Resultat_consultation": "MALAISE - LIPOTHYMIE (B/P) / Résultats de consultation / SENSATION D'EVANOUISSEMENT / MALAISE - LIPOTHYMIE (B/P) / D'APPARITION RAPIDE / DE COURTE DUREE / PRODROMES DECRITS PAR LE PATIENT / EXAMENS SYSTEMATIQUES ET PREVENTION (0/N) / récidive / EXAMEN CLINIQUE / HTA (A/P) / SANS SIGNE D'APPEL EVOQUANT UN AUTRE RESULTAT DE CONSULTATION / 12/7 / pour APTITUDE / asymptomatique / examen médico-sportif / EXAMENS SYSTEMATIQUES ET PREVENTION (0/N) / ECZEMA PALMOPLANTAIRE DYSHIDRO (C/N) / EXAMEN CLINIQUE / DERMITE / SANS SIGNE D'APPEL EVOQUANT UN AUTRE RESULTAT DE CONSULTATION / PIEDS : face latérale des orteils (débordant sur la plante du pied) / pour APTITUDE / VESICULES EPIDERMIQUES ENCHASSEES PROFONDEMENT / examen médico-sportif / TENOSYNOVITE (C/N) / ECZEMA PALMOPLANTAIRE DYSHIDRO (C/N) / pied droit / DERMITE / DOULEUR D'UNE REGION TENDINEUSE (quasi exclusivement déclenchée par mise en action du tendon) / PIEDS : face latérale des orteils (débordant sur la plante du pied) / RETROUVEE A LA PALPATION / VESICULES EPIDERMIQUES ENCHASSEES PROFONDEMENT / DECLENCHEE PAR MOUVEMENT CONTRARIE (actif ou passif) / TENOSYNOVITE (C/N) / INTEGRITE DES ARTICULATIONS SUS ET SOUS JACENTES / pied droit / secondaire à certains efforts (activités, sports,...) / DOULEUR D'UNE REGION TENDINEUSE (quasi exclusivement déclenchée par mise en action du tendon) / RETROUVEE A LA PALPATION / asymptomatique / DECLENCHEE PAR MOUVEMENT CONTRARIE (actif ou passif) / secondaire à certains efforts (activités, sports,...) / INTEGRITE DES ARTICULATIONS SUS ET SOUS JACENTES ",
+                "Prescription": "VOLTARENE"
+            },
+            {
+                "Date_consultation": "2022-03-21",
+                "Resultat_consultation": "CEPHALEE (A/N) / post vaccinal / .++++ MAL DE TÊTE / .++++ NON CLASSABLE AILLEURS / intense / unilatérale / IATROGENE - EFFET INDESIRABLE D'UNE THERAPEUTIQUE (0/N) / .++++ RÉACTION SECONDAIRE / à un médicament /.++++ QUALIFIÉ DE : / possible / .EFFET INDÉSIRABLE (À PRÉCISER EN COMMENTAIRE) / TENOSYNOVITE (C/N) / tuberosité tibiela antérieure droite",
+                "Text": "Arrêt(s) de travail / Arrêt de Travail : 21/03/2022 - 22/03/2022 : 2 jours",
+                "Prescription": "VOLTARENE / PARACETAMOL"
+            },
+            {
+                "Date_consultation": "2022-03-24",
+                "Resultat_consultation": "HERPES (C/N) / .++++ BOUQUET DE PETITES VESICULES / claires ou louches / région buccale, péribuccale / récidive / RHINITE (B/N) / RHINORRHEE CLAIRE, DURABLE / SAISONNIERE"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1967-07-05",
+        "Consultations": [
+            {
+                "Date_consultation": "2021-03-08",
+                "Accident_travail": "Questionnaires : 01-Accident de travail / 01-Accident de travail / Accident du travail du = 08/03/2021",
+                "Text": "Arrêt de travail jusqu'au = 19/03/2021",
+                "Resultat_consultation": "NEVRALGIE - NEVRITE (C/P) / droite / CRURALE",
+                "Prescription": "VOLTARENE + PARACETAMOL"
+            },
+            {
+                "Date_consultation": "2021-03-19",
+                "Resultat_consultation": "NEVRALGIE - NEVRITE (C/R) / NEVRALGIE - NEVRITE (C/P) / droite / droite / CRURALE / CRURALE / asymptomatique / LOMBALGIE (A/P) / .++++ DOULEUR DU RACHIS LOMBAIRE / spontanée / lors des mouvements actifs / .++++ ABSENCE DE NÉVRALGIE",
+                "Accident_travail": "Questionnaires : 01-Accident de travail / 01-Accident de travail / Accident du travail du = 08/03/2021",
+                "Text": "Arrêt de travail jusqu'au = 01/04/2021",
+                "Prescription": "VOLTARENE + ACUPAN"
+            },
+            {
+                "Date_consultation": "2021-04-01",
+                "Resultat_consultation": "NEVRALGIE - NEVRITE (C/R) / droite / CRURALE / asymptomatique / LOMBALGIE (A/P) / .++++ DOULEUR DU RACHIS LOMBAIRE / spontanée / lors des mouvements actifs / .++++ ABSENCE DE NÉVRALGIE",
+                "Accident_travail": "Questionnaires : 01-Accident de travail / 01-Accident de travail / Accident du travail du = 08/03/2021",
+                "Text": "Arrêt de travail jusqu'au = 22/04/2021",
+                "Prescription": "PARACETAMOL"
+            },
+            {
+                "Date_consultation": "2021-04-22",
+                "Accident_travail": "Questionnaires : 01-Accident de travail / 01-Accident de travail / Accident du travail du = 08/03/2021",
+                "Resultat_consultation": "NEVRALGIE - NEVRITE (C/R) / droite / CRURALE / asymptomatique / LOMBALGIE (A/P) / .++++ DOULEUR DU RACHIS LOMBAIRE / spontanée / lors des mouvements actifs / .++++ ABSENCE DE NÉVRALGIE",
+                "Text": "DPIO Cancer du Colon (A/N) / Arrêt de travail jusqu'au = 19/05/2021",
+                "Prescription": "PARACETAMOL"
+            },
+            {
+                "Date_consultation": "2022-04-28",
+                "Resultat_consultation": "VACCINATION (0/N) / MODERNA COVID-19 / .++++ VACCINATION (INJECTION, SCARIFICATION, MULTIPUNCTURE) / autre(s) (ex. leptospirose, rage, choléra. à préciser en commentaire) "
+            },
+            {
+                "Date_consultation": "2022-04-29",
+                "Accident_travail": "Questionnaires : 01-Accident de travail / 01-Accident de travail / Accident du travail du = 08/03/2021 / ",
+                "Resultat_consultation": "NEVRALGIE - NEVRITE (C/R) / droite / CRURALE / asymptomatique / LOMBALGIE (A/P) / .++++ DOULEUR DU RACHIS LOMBAIRE / spontanée / lors des mouvements actifs / à la palpation / pression axiale d'épineuse / pression latérale d'épineuse / pression latérale contrariée / .++++ ABSENCE DE NÉVRALGIE / SCIATIQUE (B/N) / droite / .++++ DOULEUR DANS LE TERRITOIRE DU NERF SCIATIQUE / tronquée / .++++ ABSENCE DE SIGNE GÉNITO-SPHINCTÉRIEN / récidive",
+                "Text": "Arrêt de travail jusqu'au = 03/05/2022"
+            }
+        ]
+    },
+    {
+        "sex": "Femme",
+        "DDN": "2003-09-03",
+        "Consultations": [
+            {
+                "Date_consultation": "2022-05-28",
+                "Resultat_consultation": "CYSTITE - CYSTALGIE (C/N) / dernière il y a au moins 10 mois / PLAINTE CONCERNANT LA MICTION / BRULURES MICTIONNELLES / PESANTEUR PELVIENNE / permanente(s) / POLLAKIURIE / ABSENCE DE DOULEUR LOMBAIRE - / TEMPERATURE inférieure à 38° - / APHTE (C/N) / ULCERATION DOULOUREUSE DE LA MUQUEUSE BUCCALE / A BORDS NETS AVEC AUREOLE ROUGE VIF / A FOND JAUNATRE (\"beurre frais\") / labiale / jugale"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1993-03-09",
+        "Consultations": [
+            {
+                "Date_consultation": "2022-08-07",
+                "Resultat_consultation": "DIARRHEE-VOMISSEMENT (B/N) / salmonellose / SELLES FREQUENTES, MOLLES/LIQUIDES / RECENTES / NAUSEE / VOMISSEMENT / glaires / fièvre / Arrêt(s) de travail / HEMORROIDE (D/N) / .++++ DILATATION VEINEUSE DE LA RÉGION ANALE / extériorisée, saillante / douleur / saignement de sang rouge enrobant les selles ou survenant juste après elles",
+                "Text": "Arrêt de Travail : 07/08/2022 - 16/08/2022 : 10 jours / 38,, 5°C hier soir"
+            }
+        ]
+    },
+    {
+        "sex": "Femme",
+        "DDN": "1956-10-07",
+        "Consultations": [
+            {
+                "Date_consultation": "2017-10-09",
+                "Resultat_consultation": "HTA (A/N) / Automesure 16/9 / .++++ ÉLÉVATION DE LA PRESSION ARTÉRIELLE / P.A.S. > ou = 140 mmHg / P.A.D. > ou = 90 mmHg / AU MOINS 3 MESURES / récidive",
+                "Biometrie": "Questionnaires : 04-Biométrie / 04-Biométrie / Poids (kg) = 56.000 kg / Taille (cm) = 159.0 cm / Indice de Masse Corporel (kg/m2) = 22.15 / PAS - couché (mmHg) = 170 mm Hg / PAD - couché (mmHg) = 100 mm Hg / _Pouls bat/mn = 84 b/mn,",
+                "Text": "Pas de prescription"
+            },
+            {
+                "Date_consultation": "2017-11-14",
+                "Resultat_consultation": "HTA (A/P) / Automesure 15/9 / .++++ ÉLÉVATION DE LA PRESSION ARTÉRIELLE / P.A.S. > ou = 140 mmHg / P.A.D. > ou = 90 mmHg / AU MOINS 3 MESURES / récidive / MENOPAUSE (PROBLEME ET SUIVI) (B/N) / bouffées de chaleur surtout nocturnes / confirmation biologique (frottis caractéristique, dosages hormonaux) / MALADIE RÉNALE CHRONIQUE - INSUFFISANCE RENALE (B/N) / 72 / DFG (selon la formule MDRD) > ou = 90 ml/min/1.73m2 (stade 1) / Chronique (cf. scanner) ",
+                "Text": "Dysfonctionnement tubaire droite",
+                "Prescription": "AMLOR"
+            },
+            {
+                "Date_consultation": "2022-07-31",
+                "Resultat_consultation": "UTERUS (HYPERTROPHIE - FIBROME) (C/N) / .++++ AUGMENTATION DU VOLUME DE L'UTÉRUS / localisée (fibromyome ou fibrome) / CONFIRMÉE PAR EXAMEN COMPLÉMENTAIRE / TDM, IRM"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1957-07-10",
+        "Consultations": [
+            {
+                "Date_consultation": "2016-04-16",
+                "Resultat_consultation": "BRONCHITE CHRONIQUE (BRONCHITE CHRONIQUE = TOUX + EXPECTORATION AU MOINS 3 MOIS PAR AN DEPUIS 2 ANS) ",
+                "Text": "refuse d’arrêter de fumer"
+            },
+            {
+                "Date_consultation": "2022-04-23",
+                "Resultat_consultation": "BRONCHITE AIGUË (C/P) / .++++ TOUX / .++++ RÂLES RONFLANTS DIFFUS MODIFIÉS PAR LA TOUX / .++++ BRONCHITE CHRONIQUE (BRONCHITE CHRONIQUE = TOUX + EXPECTORATION AU MOINS 3 MOIS PAR AN DEPUIS 2 ANS) ",
+                "Text": "râles sibilants (surtout au début de l'épisode) / 38°C"
+            }
+        ]
+    },
+    {
+        "sex": "Homme",
+        "DDN": "1988-10-07",
+        "Consultations": [
+            {
+                "Date_consultation": "2008-11-14",
+                "Resultat_consultation": "VACCINATION (0/N) / VACCINATION (0/N) / REVAXIS D0677-1 / REVAXIS D0677-1 / .++++ VACCINATION (INJECTION, SCARIFICATION, MULTIPUNCTURE) / .++++ VACCINATION (INJECTION, SCARIFICATION, MULTIPUNCTURE) / diphtérie / diphtérie / tétanos / tétanos / poliomyélite / poliomyélite/ ONGLE (PATHOLOGIE DE) (A/N) / Gros orteil gauche",
+                "Biologie": "Questionnaires : 03-Biologie : suivi métabolique 03-Biologie : suivi métabolique / Glycémie à jeun (mmol/l) = 4.77",
+                "Text": "Pas de prescription"
+            },
+            {
+                "Date_consultation": "2020-11-30",
+                "Text": "A enlevé tique face postérieure du genou 4 jours après chasse au début du mois / Pas de prescription",
+                "Resultat_consultation": "PIQURE D'ANIMAL (C/N) / .++++ LÉSION CUTANÉE OU MUQUEUSE / érythème / oedème / vésicule / .++++ PAR PIQÛRE OU CONTACT / animal identifié par le malade ou le médecin / autre (aoûtats, chenilles, punaises, animaux marins, etc.) ",
+                "Biologie": "Questionnaires : 03-Biologie : suivi métabolique / 03-Biologie : suivi métabolique / Glycémie à jeun (mmol/l) = 4.77 / Glycémie à jeun (g/l) calculé : = 0.86 / Cholestérol (mmol/l) = 4.44 / Choléstérol (g/l) = 1.72 / HDL Cholestérolémie (g/l) = 0.60 / LDL Cholestérolémie (g/l) = 0.97 / Triglycérides (mmol/l) = 0.83 / Triglycérides (g/l) = 0.73"
+            },
+            {
+                "Date_consultation": "2021-08-16",
+                "Resultat_consultation": "ARTHROPATHIE-PERIARTHROPATHIE (A/P) / à droite Lien possible avec entorse 2017 ? / DOULEUR ARTICULAIRE / de type mécanique (cède aux repos) / CHEVILLE(S) / .++++ ABSENCE DE TRAUMATISME DÉCLENCHANT / ACOUPHENE (A/N) / dysfonctionnement tubaire / EPAULE (TENOSYNOVITE) (B/P) "
+            }
+        ]
+    }
+]
