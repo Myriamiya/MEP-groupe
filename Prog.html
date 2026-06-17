@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MEDIC IA – Assistant médical intelligent</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel=" stylesheet" href="Prog.css"/>
+</head>
+<body>
+
+
+<div id="register-page" class="auth-page active">
+  <div class="auth-orbs"><span></span><span></span><span></span></div>
+  <div class="auth-card">
+    <div class="auth-logo"><div class="logo-circle">M</div><h1>MEDIC IA</h1><p>Créez votre compte professionnel</p></div>
+    <div id="reg-error" class="auth-error"></div>
+    <div id="reg-success" class="auth-success"></div>
+    <div class="field"><label>Nom complet</label><input type="text" id="reg-name" placeholder="Dr. Prénom Nom"/></div>
+    <div class="field"><label>Adresse email</label><input type="email" id="reg-email" placeholder="docteur@hopital.fr"/></div>
+    <div class="field"><label>Mot de passe</label><input type="password" id="reg-pass" placeholder="Minimum 6 caractères"/></div>
+    <div class="field"><label>Confirmer le mot de passe</label><input type="password" id="reg-pass2" placeholder="Répétez le mot de passe"/></div>
+    <button class="auth-btn" id="reg-btn" onclick="handleRegister()">Créer mon compte</button>
+    <div class="auth-switch">Déjà un compte ? <a onclick="showLogin()">Se connecter</a></div>
+    <div class="auth-note">🔒 Accès réservé aux professionnels de santé</div>
+  </div>
+</div>
+
+
+<div id="login-page" class="auth-page">
+  <div class="auth-orbs"><span></span><span></span><span></span></div>
+  <div class="auth-card">
+    <div class="auth-logo"><div class="logo-circle">M</div><h1>MEDIC IA</h1><p>Assistant médical intelligent</p></div>
+    <div id="login-error" class="auth-error"></div>
+    <div class="field"><label>Adresse email</label><input type="email" id="login-email" placeholder="docteur@hopital.fr"/></div>
+    <div class="field"><label>Mot de passe</label><input type="password" id="login-pass" placeholder="••••••••"/></div>
+    <button class="auth-btn" id="login-btn" onclick="handleLogin()">Se connecter</button>
+    <div class="auth-switch">Pas encore de compte ? <a onclick="showRegister()">S'inscrire</a></div>
+    <div class="auth-note">🔒 Accès réservé aux professionnels de santé</div>
+  </div>
+</div>
+<div id="loading-page">
+  <div class="loading-logo"><div class="big-avatar">M</div><h2>MEDIC IA</h2><p>Assistant médical intelligent</p></div>
+  <div class="loading-bar-wrap">
+    <div class="loading-bar-track"><div class="loading-bar-fill" id="loading-bar"></div></div>
+    <div class="loading-label" id="loading-label">Initialisation...</div>
+  </div>
+  <div class="loading-steps">
+    <div class="loading-step" id="step-1"><div class="step-icon">1</div> Vérification des identifiants</div>
+    <div class="loading-step" id="step-2"><div class="step-icon">2</div> Chargement du profil médical</div>
+    <div class="loading-step" id="step-3"><div class="step-icon">3</div> Connexion à la base de données</div>
+    <div class="loading-step" id="step-4"><div class="step-icon">4</div> Préparation de l'interface</div>
+  </div>
+</div>
+
+
+<div id="app">
+  <div id="sidebar">
+    <div class="sidebar-logo"><div class="s-logo-avatar">M</div><span>MEDIC IA</span></div>
+    <div class="sidebar-actions">
+      <button class="new-chat-btn" onclick="newChat()">✦ Nouveau chat</button>
+    </div>
+    <div class="search-box">
+      <span style="font-size:13px;color:rgba(255,255,255,0.4)">🔍</span>
+      <input type="text" id="search-input" placeholder="Rechercher..." oninput="filterHistory(this.value)"/>
+    </div>
+    <div class="users-section">
+      <div class="users-label">Utilisateurs</div>
+      <div class="users-list" id="users-list"></div>
+      <button class="add-user-btn" onclick="openAddUser()">
+        <div class="add-user-icon">＋</div><span>Ajouter un utilisateur</span>
+      </button>
+    </div>
+    <div class="history-label">
+      Historique
+      <span class="memory-badge" id="memory-badge-sidebar">
+        <span id="memory-badge-icon">💾</span>
+        <span id="memory-badge-text">Mémoire active</span>
+      </span>
+    </div>
+    <div id="history-list"><div class="history-empty">Aucun historique pour l'instant</div></div>
+    <div class="sidebar-user">
+      <div class="s-user-avatar" id="user-avatar-s">DR</div>
+      <div class="user-info"><div class="user-name" id="user-name-s">Docteur</div></div>
+      <button class="icon-btn" title="Paramètres" onclick="openSettings()">⚙️</button>
+      <button class="icon-btn" title="Déconnexion" onclick="logout()">🚪</button>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="drop-overlay"><div class="drop-icon">📂</div><p>Déposez votre fichier ici</p><span>PDF, image, texte acceptés</span></div>
+    <div id="header">
+      <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+      <div style="display:flex;align-items:center;gap:11px;">
+        <div class="h-logo-avatar">M</div>
+        <div><div class="header-title">MEDIC IA</div><div class="header-sub">Assistant médical intelligent</div></div>
+      </div>
+      <div class="status-dot">En ligne</div>
+    </div>
+    <div id="messages"></div>
+    <div id="input-area">
+      <input type="file" id="file-input" accept=".pdf,.png,.jpg,.jpeg,.txt,.doc,.docx" multiple/>
+      
+      <div class="file-preview-bar" id="transcription-bar">
+        <div class="mic-icon">🎙️</div>
+        <div id="transcription-text" style="flex:1;font-size:13px;color:var(--text);font-style:italic;">En écoute...</div>
+        <div class="wave-bars">
+          <div class="wave-bar" style="height:12px"></div>
+          <div class="wave-bar" style="height:18px"></div>
+          <div class="wave-bar" style="height:10px"></div>
+          <div class="wave-bar" style="height:16px"></div>
+          <div class="wave-bar" style="height:8px"></div>
+        </div>
+      </div>
+      <div class="file-preview-bar" id="file-preview-bar"></div>
+      <div class="input-wrapper">
+        <button class="attach-btn" onclick="document.getElementById('file-input').click()">📎</button>
+        <textarea id="chat-input" rows="1" placeholder="Posez votre question ou décrivez le cas patient..."></textarea>
+        
+        <button id="mic-btn" onclick="toggleVoiceInput()" title="Dicter votre message">🎙️</button>
+        <button id="send-btn" onclick="sendMessage()" disabled>➤</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal-backdrop" id="settings-modal">
+  <div class="ios-modal">
+    <div class="ios-modal-header">
+      <h2>⚙️ Paramètres</h2>
+      <button class="ios-modal-close" onclick="closeSettings()">✕</button>
+    </div>
+    <div class="ios-modal-scroll">
+
+      
+      <div class="ios-section">
+        <div class="ios-section-label">Profil</div>
+        <div class="ios-card">
+          <div class="ios-row">
+            <div class="ios-row-icon">👤</div>
+            <div class="ios-row-content"><div class="ios-row-title">Nom affiché</div></div>
+            <div class="ios-row-right"><input class="ios-input" id="setting-name" placeholder="Dr. Prénom Nom" style="max-width:170px;text-align:right"/></div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="ios-section">
+        <div class="ios-section-label">Voix & Audio</div>
+        <div class="ios-card">
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">🔊</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Lecture automatique des réponses</div>
+              <div class="ios-row-sub">L'IA lit ses réponses automatiquement</div>
+            </div>
+            <div class="ios-row-right">
+              <label class="ios-toggle">
+                <input type="checkbox" id="setting-autoread"/>
+                <span class="track"></span><span class="thumb"></span>
+              </label>
+            </div>
+          </div>
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">🧬</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Genre de la voix</div>
+              <div class="ios-row-sub">Voix masculine ou féminine</div>
+            </div>
+            <div class="ios-row-right">
+              <select class="ios-select" id="setting-voice-gender" onchange="updateVoicePreview()">
+                <option value="female">👩 Féminine</option>
+                <option value="male">👨 Masculine</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">⚡</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Vitesse de lecture</div>
+              <div class="ios-row-sub">Lent · Normal · Rapide</div>
+            </div>
+            <div class="ios-row-right">
+              <select class="ios-select" id="setting-voice-rate">
+                <option value="0.8">Lent</option>
+                <option value="1.0" selected>Normal</option>
+                <option value="1.25">Rapide</option>
+                <option value="1.5">Très rapide</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">🎵</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Tonalité</div>
+              <div class="ios-row-sub">Grave · Neutre · Aigu</div>
+            </div>
+            <div class="ios-row-right">
+              <select class="ios-select" id="setting-voice-pitch">
+                <option value="0.8">Grave</option>
+                <option value="1.0" selected>Neutre</option>
+                <option value="1.2">Aigu</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">▶️</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Prévisualiser la voix</div>
+              <div class="ios-row-sub" id="voice-preview-name">Voix sélectionnée : –</div>
+            </div>
+            <div class="ios-row-right">
+              <button class="voice-preview-btn" onclick="previewVoice()">Écouter</button>
+            </div>
+          </div>
+          
+          <div class="ios-row">
+            <div class="ios-row-icon">🎙️</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Dictée vocale activée</div>
+              <div class="ios-row-sub">Utiliser le micro pour dicter</div>
+            </div>
+            <div class="ios-row-right">
+              <label class="ios-toggle">
+                <input type="checkbox" id="setting-voice-input" checked/>
+                <span class="track"></span><span class="thumb"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="ios-section">
+        <div class="ios-section-label">Mémoire & Historique</div>
+        <div class="ios-card">
+          <div class="ios-row">
+            <div class="ios-row-icon">🧠</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Conserver les conversations</div>
+              <div class="ios-row-sub">Mémoriser l'historique des chats</div>
+            </div>
+            <div class="ios-row-right">
+              <label class="ios-toggle">
+                <input type="checkbox" id="setting-memory" checked onchange="syncMemoryBadge()"/>
+                <span class="track"></span><span class="thumb"></span>
+              </label>
+            </div>
+          </div>
+          <div class="ios-row">
+            <div class="ios-row-icon">⏳</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Durée de conservation</div>
+              <div class="ios-row-sub">Suppression automatique</div>
+            </div>
+            <div class="ios-row-right">
+              <select class="ios-select" id="setting-retention">
+                <option value="forever">Indéfiniment</option>
+                <option value="30">30 jours</option>
+                <option value="7">7 jours</option>
+                <option value="1">1 jour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="ios-section">
+        <div class="ios-section-label">Préférences de réponse</div>
+        <div class="ios-card">
+          <div class="ios-row">
+            <div class="ios-row-icon">📖</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Réponses détaillées</div>
+              <div class="ios-row-sub">Développe davantage les explications</div>
+            </div>
+            <div class="ios-row-right">
+              <label class="ios-toggle">
+                <input type="checkbox" id="setting-verbose"/>
+                <span class="track"></span><span class="thumb"></span>
+              </label>
+            </div>
+          </div>
+          <div class="ios-row">
+            <div class="ios-row-icon">📚</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title">Sources médicales</div>
+              <div class="ios-row-sub">Inclure les références quand disponibles</div>
+            </div>
+            <div class="ios-row-right">
+              <label class="ios-toggle">
+                <input type="checkbox" id="setting-sources" checked/>
+                <span class="track"></span><span class="thumb"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="ios-section">
+        <div class="ios-section-label">Données</div>
+        <div class="ios-card">
+          <div class="ios-row">
+            <div class="ios-row-icon">🗑️</div>
+            <div class="ios-row-content">
+              <div class="ios-row-title" style="color:#ff3b30">Effacer tout l'historique</div>
+              <div class="ios-row-sub">Supprime toutes les conversations</div>
+            </div>
+            <div class="ios-row-right">
+              <button onclick="clearAllHistory()" style="background:none;border:none;cursor:pointer;color:#ff3b30;font-size:14px;font-weight:600;font-family:'DM Sans',sans-serif;">Effacer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="ios-save-btn" onclick="saveSettings()">✅ Enregistrer les modifications</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal-backdrop" id="add-user-modal">
+  <div class="add-user-modal">
+    <h3>➕ Ajouter un utilisateur</h3>
+    <div class="field"><label>Nom complet</label><input type="text" id="new-user-name" placeholder="Dr. Prénom Nom"/></div>
+    <div class="field"><label>Adresse email</label><input type="email" id="new-user-email" placeholder="docteur@hopital.fr"/></div>
+    <div class="field"><label>Mot de passe</label><input type="password" id="new-user-pass" placeholder="Minimum 6 caractères"/></div>
+    <div class="add-user-err" id="add-user-err"></div>
+    <div class="add-user-actions">
+      <button class="btn-cancel" onclick="closeAddUser()">Annuler</button>
+      <button class="btn-save" onclick="addNewUser()">Créer</button>
+    </div>
+  </div>
+</div>
+
+<script src="Prog.js"></script>
+</body>
+</html>
