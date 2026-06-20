@@ -12,7 +12,7 @@ COLLECTION_NAME  = "medic_ia"
 # ── RAG 
 CHUNK_SIZE    = 3000
 CHUNK_OVERLAP = 150
-TOP_K         = 8
+TOP_K         = 10
 MIN_SCORE     = 0.4
 # ── Prétraitement 
 SUPPORTED_LANGS  = ["fr", "en"]

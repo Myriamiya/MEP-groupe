@@ -60,9 +60,8 @@ def compute_confidence(passages: list) -> float:
 def needs_fallback(passages: list) -> bool:
     if not passages:
         return True
-
-    meilleur_score = max([p["score"] for p in passages])
-    return meilleur_score < MIN_SCORE
+    meilleur_score = min([p["score"] for p in passages])
+    return meilleur_score > MIN_SCORE
 
 
 # ── Pipeline complet de post-traitement ───────────────

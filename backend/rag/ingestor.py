@@ -6,85 +6,70 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from configuration import SOURCES_PATH
 
 
-# ── Lire un fichier JSON ──────────────────────────────
-def read_json(path: str) -> list:
+def read_json(path: str, start_offset: int = 0):
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         documents = []
-
         if isinstance(data, list):
             for i, patient in enumerate(data):
-
-                # Récupérer les infos du patient
-                sexe = patient.get("sex", "Inconnu")
-                ddn  = patient.get("DDN", "Inconnue")
+                numero        = start_offset + i + 1
+                sexe          = patient.get("sex", "Inconnu")
+                ddn           = patient.get("DDN", "Inconnue")
                 consultations = patient.get("Consultations", [])
 
-                # Construire le texte de toutes les consultations
-                texte_consultations = []
                 for c in consultations:
-                    date    = c.get("Date_consultation", "")
-                    texte   = c.get("Text", "")
-                    resultat = c.get("Resultat_consultation", "")
+                    date         = c.get("Date_consultation", "")
+                    texte        = c.get("Text", "")
+                    resultat     = c.get("Resultat_consultation", "")
                     prescription = c.get("Prescription", "")
-                    accident = c.get("Accident_travail", "")
-                    biologie = c.get("Biologie", "")
-                    biometrie = c.get("Biometrie", "")
+                    accident     = c.get("Accident_travail", "")
+                    biologie     = c.get("Biologie", "")
+                    biometrie    = c.get("Biometrie", "")
 
-                    ligne = f"Consultation du {date} :"
-                    if texte:
-                        ligne += f" {texte}"
-                    if resultat:
-                        ligne += f" Résultat : {resultat}"
-                    if prescription:
-                        ligne += f" Prescription : {prescription}"
-                    if accident:
-                        ligne += f" Accident travail : {accident}"
-                    if biologie:
-                        ligne += f" Biologie : {biologie}"
-                    if biometrie:
-                        ligne += f" Biométrie : {biometrie}"
+                    contenu = f"Patient {numero} - {sexe} - ne(e) le {ddn}. Consultation du {date} :"
+                    if texte:        contenu += f" {texte}"
+                    if resultat:     contenu += f" Resultat : {resultat}"
+                    if prescription: contenu += f" Prescription : {prescription}"
+                    if accident:     contenu += f" Accident travail : {accident}"
+                    if biologie:     contenu += f" Biologie : {biologie}"
+                    if biometrie:    contenu += f" Biometrie : {biometrie}"
 
-                    texte_consultations.append(ligne)
+                    documents.append({
+                        "nom":               os.path.basename(path),
+                        "type":              "JSON",
+                        "chemin":            path,
+                        "categorie":         "Medical",
+                        "source":            os.path.basename(path),
+                        "patient_numero":    numero,
+                        "date_consultation": date,
+                        "contenu":           contenu
+                    })
 
-                # Assembler le contenu complet du patient
-                contenu = (
-                    f"Patient {i+1} · {sexe} · né(e) le {ddn}. "
-                    + " | ".join(texte_consultations)
-                )
-
-                documents.append({
-                    "nom":       os.path.basename(path),
-                    "type":      "JSON",
-                    "chemin":    path,
-                    "categorie": "Médical",
-                    "source":    os.path.basename(path),
-                    "contenu":   contenu
-                })
-
-        print(f"  ✅ {len(documents)} patients lus depuis {os.path.basename(path)}")
-        return documents
+        print(f"  {len(documents)} consultations lues depuis {os.path.basename(path)} ({len(data)} patients, numeros {start_offset+1} a {start_offset+len(data)})")
+        return documents, len(data)
 
     except Exception as e:
         print(f"Erreur JSON {path} : {str(e)}")
-        return []
+        return [], 0
 
-# ── Ingérer tous les fichiers JSON du dossier ─────────
-def ingest_all() -> list: #parcourt tous les fichiers .json
+
+def ingest_all() -> list:
     tous_les_docs = []
     dossier = os.path.join(SOURCES_PATH, "documents")
 
     if not os.path.exists(dossier):
-        print(f"⚠️ Dossier introuvable : {dossier}")
+        print(f"Dossier introuvable : {dossier}")
         return []
 
-    for fichier in os.listdir(dossier): #appelle read_json() pour chacun
+    offset = 0
+    for fichier in sorted(os.listdir(dossier)):
         if fichier.endswith(".json"):
             path = os.path.join(dossier, fichier)
-            docs = read_json(path)
+            docs, nb_patients = read_json(path, start_offset=offset)
             tous_les_docs.extend(docs)
+            offset += nb_patients
 
-    print(f"\n✅ Total : {len(tous_les_docs)} entrées ingérées")
-    return tous_les_docs #rassemble tous les documents
+    print(f"\nTotal : {len(tous_les_docs)} consultations ingerees, {offset} patients uniques")
+    return tous_les_docs

@@ -68,6 +68,5 @@ ANSWER:"""
 def is_context_sufficient(passages: list) -> bool:
     if not passages:
         return False
-
-    meilleur_score = max([p["score"] for p in passages])
-    return meilleur_score >= MIN_SCORE
+    meilleur_score = min([p["score"] for p in passages])
+    return meilleur_score <= MIN_SCORE

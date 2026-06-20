@@ -28,9 +28,9 @@ def get_normalized_embedding(text):
     from configuration import OLLAMA_BASE_URL, EMBED_MODEL
     try:
         response = requests.post(
-            f"{OLLAMA_BASE_URL}/api/embeddings",
-            json={"model": EMBED_MODEL, "prompt": text}
-        )
+    f"{OLLAMA_BASE_URL}/api/embeddings",
+    json={"model": EMBED_MODEL, "prompt": f"search_document: {text}"}
+)
         embedding = response.json().get("embedding", [])
         if not embedding:
             return []
@@ -69,12 +69,14 @@ def embed_and_store(document, collection):
             ids=[doc_id],
             embeddings=[embedding],
             documents=[chunk],
-            metadatas=[{
-                "categorie": document["categorie"],
-                "source": document["source"],
-                "nom": document["nom"],
-                "chunk": i
-            }]
+           metadatas=[{
+    "categorie": document["categorie"],
+    "source": document["source"],
+    "nom": document["nom"],
+    "patient_numero": document.get("patient_numero", 0),
+    "date_consultation": document.get("date_consultation", ""),
+    "chunk": i
+}]
         )
     print(f"  {len(chunks)} chunks stockes pour [{document['categorie']}]")
 
